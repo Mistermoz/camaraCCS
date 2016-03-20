@@ -1,8 +1,8 @@
-<div class="main calculadora">
+<div class="main calculadora interior">
 	<div class="indicadores top-indicadores">
 		<p><span>UF: 25.350,09</span>   -    <span>Dólar Obs: $715,8</span>   -  <span>Euro: $710,5</span></p>
 	</div>
-		
+
 	<div class="container">
 		<div class="top-title">
 			<h2 class="title">Calculadora de Aranceles</h2>
@@ -55,16 +55,16 @@
 					<input type="submit" value="Consultar">
 				</div>
 			</form>
+		</div>
 
-			<div class="bottom-content">
-				<div class="indicadores">
-					<p><strong>INDICADORES ECONOMICOS</strong>    <span>UF: 25.350,09</span>   -    <span>Dólar Obs: $715,8</span>   -  <span>Euro: $710,5</span></p>
-				</div>
+		<div class="bottom-content">
+			<div class="indicadores">
+				<p><strong>INDICADORES ECONOMICOS</strong>    <span>UF: 25.350,09</span>   -    <span>Dólar Obs: $715,8</span>   -  <span>Euro: $710,5</span></p>
+			</div>
 
-				<div class="buscador">
-          <input type="text" class="in" placeholder="Que desea buscar..."/>
-          <input name="" class="bt" type="button" value="" />
-				</div>
+			<div class="buscador">
+        <input type="text" class="in" placeholder="Que desea buscar..."/>
+        <input name="" class="bt" type="button" value="" />
 			</div>
 		</div>
 	</div>

@@ -413,6 +413,24 @@ div.header .menu-mobile a {
   }
 }
 /********* Default ********/
+a {
+  outline: none;
+  -webkit-transition: color 250ms;
+  transition: color 250ms;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active,
+a:active * {
+  outline: none !important;
+  -moz-outline-style: none !important;
+}
+a:focus,
+a:focus * {
+  outline: none !important;
+  -moz-outline-style: none !important;
+}
 .top-indicadores {
   display: none;
   float: none;
@@ -469,7 +487,7 @@ div.header .menu-mobile a {
   text-align: left;
 }
 .container .breadcrum a {
-  color: #334353;
+  color: #4d6479;
   font-size: 13px;
 }
 .container .breadcrum a.first {
@@ -498,6 +516,7 @@ div.header .menu-mobile a {
   overflow: hidden;
 }
 .container .bottom-content .indicadores {
+  float: left;
   margin-right: 2%;
   width: 66%;
 }
@@ -534,7 +553,6 @@ div.header .menu-mobile a {
 @media only screen and (max-width: 768px) {
   .top-indicadores {
     background: none;
-    padding: 0px 20px;
     display: block;
   }
   .top-indicadores p {
@@ -552,7 +570,12 @@ div.header .menu-mobile a {
     display: none;
   }
 }
-/********* Calculadora de Aranceles ***********/
+@media only screen and (max-width: 480px) {
+  .main .top-indicadores p {
+    font-size: 10px;
+  }
+}
+/********* Calculadora de Aranceles Interior ***********/
 input[type="radio"] {
   display: none;
 }
@@ -573,45 +596,45 @@ input[type="radio"] + label span {
 input[type="radio"]:checked + label span {
   background-color: #fd8339;
 }
-.calculadora {
+.calculadora.interior {
   text-align: center;
 }
-.calculadora h3 {
+.calculadora.interior h3 {
   margin-bottom: 30px;
 }
-.calculadora form {
+.calculadora.interior form {
   display: inline-block;
   margin-bottom: 60px;
   text-align: left;
   width: auto;
 }
-.calculadora form li {
+.calculadora.interior form li {
   cursor: pointer;
 }
-.calculadora form label {
+.calculadora.interior form label {
   color: #334353;
   cursor: pointer;
   font-size: 13px;
   font-weight: normal;
   width: 100%;
 }
-.calculadora form label span {
+.calculadora.interior form label span {
   float: right;
 }
-.calculadora form .button {
+.calculadora.interior form .button {
   text-align: center;
 }
-.calculadora form .button input[type="submit"] {
+.calculadora.interior form .button input[type="submit"] {
   background: #fd8339;
   border: none;
   color: #fff;
   display: inline-block;
   padding: 5px 20px;
 }
-.calculadora .breadcrum {
+.calculadora.interior .breadcrum {
   margin-bottom: 30px;
 }
-.calculadora .container {
+.calculadora.interior .container {
   background: #ffffff url(../img/bg_calculadora.jpg) 0 0 no-repeat;
 }
 @media only screen and (max-width: 480px) {
@@ -620,5 +643,113 @@ input[type="radio"]:checked + label span {
   }
   .calculadora form label {
     font-size: 11px;
+  }
+}
+/********* Calculadora de Aranceles Home ***********/
+.calculadora.home {
+  text-align: center;
+}
+.calculadora.home h3 {
+  margin-bottom: 30px;
+}
+.calculadora.home h4 {
+  color: #4d6479;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.calculadora.home .carousel-acuerdos {
+  position: relative;
+}
+.calculadora.home .acuerdo {
+  text-align: center;
+}
+.calculadora.home .acuerdo a {
+  display: inline-block;
+}
+.calculadora.home .acuerdo a img {
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 78px;
+}
+.calculadora.home .acuerdo a p {
+  font-size: 9px;
+  font-weight: bold;
+  opacity: 0;
+}
+.calculadora.home .acuerdo a:hover p {
+  -webkit-transition: opacity 250ms;
+  transition: opacity 250ms;
+  opacity: 1;
+}
+.calculadora.home .breadcrum {
+  margin-bottom: 30px;
+}
+.calculadora.home .control {
+  bottom: 80px;
+  position: absolute;
+}
+.calculadora.home .control a {
+  background: #334353;
+  color: #fff;
+  font-weight: bold;
+  height: 20px;
+  line-height: 19px;
+  text-align: center;
+  width: 20px;
+}
+.calculadora.home .control a:hover {
+  background: #4d6479;
+  -webkit-transition: background 250ms;
+  transition: background 250ms;
+}
+.calculadora.home .control.next {
+  right: -20px;
+}
+.calculadora.home .control.prev {
+  left: -20px;
+}
+.calculadora.home .container {
+  background: #ffffff url(../img/bg_calculadora.jpg) 0 0 no-repeat;
+}
+.calculadora.home .options {
+  margin-bottom: 70px;
+}
+.calculadora.home .options a {
+  background: #4d6479;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  height: 71px;
+  line-height: 71px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: background 250ms;
+  transition: background 250ms;
+  width: 160px;
+}
+.calculadora.home .options a:first-child {
+  margin-right: 25px;
+}
+.calculadora.home .options a:after {
+  border: 1px solid #fff;
+  content: '';
+  display: inline-block;
+  height: 72%;
+  left: 7%;
+  position: absolute;
+  top: 14%;
+  width: 86%;
+}
+.calculadora.home .options a:hover {
+  background: #fd8339;
+  text-decoration: none;
+}
+@media only screen and (max-width: 480px) {
+  .calculadora.home .options a:first-child {
+    margin-bottom: 20px;
+    margin-right: 0px;
   }
 }

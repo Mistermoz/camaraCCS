@@ -105,5 +105,47 @@ $(document).ready(function(){
 
 			e.preventDefault();
 		});
+
+		var owlSlider = $('.owl-carousel').owlCarousel({
+			dots: false,
+	    loop: true,
+	    margin:10,
+	    responsiveClass: true,
+	    responsive:{
+        0:{
+            items:2,
+            nav:false
+        },
+        480:{
+            items:3,
+            nav:false
+        },
+        768:{
+            items:5,
+            nav:false
+        },
+        980:{
+            items:7,
+            nav:false
+        },
+        1000:{
+            items:8,
+            nav:false,
+            loop:true
+        }
+	    }
+		});
+
+		$('.control a').click(function (e) {
+			var op = $(this).attr('href').replace('/#/', '');
+
+			if(op === 'anterior') {
+				owlSlider.trigger('prev.owl.carousel');
+			}else {
+				owlSlider.trigger('next.owl.carousel');
+			}
+
+			e.preventDefault();
+		});
 	});
 });
