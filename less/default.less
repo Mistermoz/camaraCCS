@@ -92,6 +92,8 @@ div.header {
 			
 			ul {
 				max-height: 0px;
+				margin: 0px;
+				padding: 0px;
 				overflow: hidden;
 				-webkit-transition: max-height 300ms;
 				transition: max-height 300ms;
@@ -174,6 +176,7 @@ div.header {
 
 /******* Footer Mobile **************/
 .footer {
+	margin-top: 0px;
 	overflow: hidden;
 	
 	.blocks-info {
@@ -318,11 +321,11 @@ div.header {
 		width: 100%;
 	}
 
-	.main {
+	.main.home {
 		box-sizing: border-box;
 		overflow: hidden;
 		padding: 0px 20px;
-		
+
 		.left {
 			width: 100%;
 		}
@@ -548,3 +551,273 @@ div.header {
 		}
 	}
 }
+
+/********* Default ********/
+.top-indicadores {
+	display: none;
+	float: none;
+	margin-bottom: 20px;
+}
+
+.container {
+	clear: both;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0	auto;
+	padding: 0px;
+	width: 950px;
+
+	h3 {
+		color: @color1;
+		font-weight: bold;
+		font-size: 13px;
+	}
+
+	.top-title {
+		background: url(../img/bg-title.jpg) 0 0 no-repeat;
+		border-bottom: 1px solid @color1;
+		box-sizing: border-box;
+		color: #fff;
+		margin-bottom: 15px;
+		padding: 15px 20px;
+
+		h2 {
+			display: inline-block;
+			font-size: 15px;
+			font-weight: bold;
+			margin: 0px;
+			text-align: left;
+			text-transform: uppercase;
+			vertical-align: middle;
+			width: 49%;
+		}
+
+		p {
+			display: inline-block;
+			font-size: 12px;
+			margin: 0px;
+			text-align: right;
+			vertical-align: middle;
+			width: 49%;
+
+			span {
+				display: inline-block;
+				width: 300px;
+			}
+		}
+	}
+
+	.content {
+		box-sizing: border-box;
+		padding: 0px 20px;
+	}
+
+	.breadcrum {
+		margin-bottom: 15px;
+		text-align: left;
+
+		a {
+			color: @color2;
+			font-size: 13px;
+
+			&.first {
+				text-decoration: underline;
+			}
+
+			&:after {
+				content: '\f105';
+		    display: inline-block;
+		    font-family: FontAwesome;
+		    font-size: 13px;
+		    font-weight: bold;
+		    line-height: 1;
+		    margin-left: 10px;
+		    margin-right: 5px;
+		    vertical-align: 0px;
+			}
+
+			&.last {
+				color: @color1;
+
+				&:after {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.bottom-content {
+		height: 1%;
+		margin-bottom: 20px;
+		overflow: hidden;
+
+		.indicadores {
+			margin-right: 2%;
+			width: 66%;
+		}
+
+		.buscador {
+			box-sizing: border-box;
+			padding: 0px 0px 0px 5px;
+			width: 32%;
+
+			.in {
+				height: 25px;
+				float: left;
+				margin-top: 0px;
+				width: 70%;
+			}
+
+			.bt {
+				clear: unset;
+				margin-top: 0px;
+				float: left;
+				height: 25px;
+				width: 30%;
+			}
+		}
+	}
+
+	form {
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	.container {
+		overflow: hidden;
+		width: 100%;
+
+		.bottom-content {
+			.indicadores {
+				strong {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.top-indicadores {
+		background: none;
+		padding: 0px 20px;
+		display: block;
+
+		p {
+			 background: #dde5ed none repeat scroll 0 0;
+		}
+	}
+
+	.container {
+		.bottom-content {
+			display: none;
+		}
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.container {
+		.top-title {
+			h2 {
+				width: 100%;
+			}
+
+			p {
+				display: none;
+			}
+		}
+	}
+}
+
+/********* Calculadora de Aranceles ***********/
+@text: #4c4c4c;
+@shadow: #cccccc;
+@outline: #ffffff;
+@unselected: #ffffff;
+
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"] + label span {
+    box-shadow: 0 0 0 2px @shadow;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 6px 7px 0 105px;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+input[type="radio"] + label span {
+  border: 2px solid @outline;
+  background-color: @unselected;
+}
+
+input[type="radio"]:checked + label span{
+  background-color: @color1;
+}
+
+.calculadora {
+	text-align: center;
+
+	h3 {
+		margin-bottom: 30px;
+	}
+
+	form {
+		display: inline-block;
+		margin-bottom: 60px;
+		text-align: left;
+		width: auto;
+
+		li {
+			cursor: pointer;
+		}
+
+		label {
+			color: @color2;
+			cursor: pointer;
+			font-size: 13px;
+			font-weight: normal;
+			width: 100%;
+
+			span {
+				float: right;
+			}
+		}
+
+		.button {
+			text-align: center;
+			
+			input[type="submit"] {
+				background: @color1;
+				border: none;
+				color: #fff;
+				display: inline-block;
+				padding: 5px 20px;
+			}
+		}
+	}
+
+	.breadcrum {
+		margin-bottom: 30px;
+	}
+
+	.container {
+		background: #fff url(../img/bg_calculadora.jpg) 0 0 no-repeat;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	input[type="radio"] + label span {
+		margin: 5px 7px 0 25px;
+	}
+
+	.calculadora form label {
+		font-size: 11px;
+	}
+}
+
+
+

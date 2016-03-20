@@ -26,7 +26,7 @@ $(document).ready(function(){
 			$('.nav li').off('mouseenter mouseleave');
 			$('.subnav li').off('mouseenter mouseleave');
 
-			$('.header .nav').css('top', '' + ($('.header').height() + 10) + 'px');
+			$('.header .nav').css('top', '' + $('.header').height() + 'px');
 		}else {
 			$('.nav li').on('mouseenter', function() {
 				$(this).find('.subnav').show();
@@ -96,7 +96,7 @@ $(document).ready(function(){
 				$(this).addClass('activo01');
 			});
 
-			$('.header .nav').css('top', '' + ($('.header').height() + 10) + 'px');
+			$('.header .nav').css('top', '' + $('.header').height() + 'px');
 		}
 
 		$('.menu-mobile a').click(function (e) {

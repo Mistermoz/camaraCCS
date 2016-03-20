@@ -7,15 +7,18 @@
 <title>PortalComex</title>
 
 <link href="style.css" rel="Stylesheet" media="screen" type="text/css" />
-<link href="css/font-awesome.min.css" rel="Stylesheet" media="screen" type="text/css" />
+<link href="css/bootstrap.min.css" rel="Stylesheet" type="text/css" />
+<link href="css/bootstrap-theme.min.css" rel="Stylesheet" type="text/css" />
+<link href="css/font-awesome.min.css" rel="Stylesheet" type="text/css" />
 <link href="css/default.css" rel="Stylesheet" media="screen" type="text/css" />
-<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'> -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 
 <link rel="shortcut icon" href="img/favicon.png" />
 <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
 <link rel='icon' href='img/favicon.png' type='image/x-icon' />
 
-<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.bxslider.js"></script>
 <script type="text/javascript" src="js/funciones.js"></script>
 
