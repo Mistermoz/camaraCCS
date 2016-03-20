@@ -1,4 +1,4 @@
-<div class="main">
+<div class="main home">
 	
 	<div class="col-center">
     
