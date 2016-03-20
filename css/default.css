@@ -1,0 +1,411 @@
+/******* Header Mobile ************/
+div.header .menu-mobile {
+  display: none;
+  float: right;
+  right: 0px;
+  position: relative;
+  top: 5px;
+  z-index: 2;
+}
+div.header .menu-mobile a {
+  color: #334353;
+  font-size: 32px;
+}
+@media only screen and (max-width: 980px) {
+  div.header .col-center {
+    box-sizing: border-box;
+    height: 1%;
+    overflow: hidden;
+    padding: 0px 20px;
+    width: 100%;
+  }
+  div.header .nav-top {
+    height: auto;
+  }
+  .topoculto .colform {
+    border: none;
+    float: none;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 300px;
+  }
+  .topoculto .colform .col {
+    width: 103px;
+  }
+  .topoculto .colform .col:nth-of-type(3) {
+    width: auto;
+  }
+  .topoculto .colform .col:nth-of-type(3) input {
+    margin-top: 22px;
+    width: 65px;
+  }
+  .topoculto .listtop {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  div.header {
+    position: relative;
+  }
+  div.header .logo {
+    height: auto;
+  }
+  div.header .logoccs {
+    height: auto;
+    width: 120px;
+  }
+  div.header .logoccs img {
+    width: 120px;
+  }
+  div.header .menu-mobile {
+    display: block;
+  }
+  div.header .nav {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 10;
+  }
+  div.header .nav ul {
+    max-height: 0px;
+    overflow: hidden;
+    -webkit-transition: max-height 300ms;
+    transition: max-height 300ms;
+  }
+  div.header .nav ul.open {
+    max-height: 700px;
+  }
+  div.header .nav li {
+    display: block;
+    float: none;
+  }
+  div.header .nav li .subnav {
+    display: block;
+    left: 0px;
+    max-height: 0px;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    -webkit-transition: max-height 300ms;
+    transition: max-height 300ms;
+    width: 100%;
+  }
+  div.header .nav li .subnav li a {
+    font-size: 10px;
+    padding-left: 24px !important;
+  }
+  div.header .nav li .subnav li a img {
+    display: inline-block;
+    float: none;
+    position: relative;
+    vertical-align: -11px;
+  }
+  div.header .nav li.activo01 .subnav {
+    max-height: 700px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .nav-top {
+    width: 100%;
+  }
+  .nav-top ul {
+    text-align: center;
+  }
+  .nav-top ul li {
+    background: #bbcada none repeat scroll 0 0;
+    border-right: 1px solid #fff;
+    display: inline-block;
+    float: none;
+    margin-right: -4px;
+    margin-bottom: 1px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .logo {
+    width: 159px;
+  }
+  .logo img {
+    margin-top: 10px;
+    width: 159px;
+  }
+}
+/******* Footer Mobile **************/
+.footer {
+  overflow: hidden;
+}
+.footer .blocks-info {
+  float: left;
+  height: 1%;
+  overflow: hidden;
+  width: auto;
+}
+@media only screen and (max-width: 980px) {
+  .footer .logo {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: 172px;
+  }
+  .footer .blocks-info {
+    float: none;
+    text-align: center;
+  }
+  .footer .blocks-info ul {
+    box-sizing: border-box;
+    float: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 0px 0px 0px 15px;
+    vertical-align: top;
+    text-align: left;
+    width: 150px;
+  }
+  .footer .blocks-info ul span {
+    border-bottom: 1px solid #bbc9d9;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+  .footer .piebackground {
+    background: none;
+  }
+  .footer .piebackground .col-center {
+    text-align: center;
+  }
+  .footer .piebackground .col-center > div {
+    background: none;
+    display: inline-block;
+    float: none;
+    margin: 0px;
+    padding-top: 0px;
+    width: 100%;
+  }
+  .footer .piebackground .col-center > div br {
+    display: none;
+  }
+  .footer .piebackground .col-center > div br.nobr {
+    display: block;
+  }
+  .footer .piebackground .col-center > div span {
+    margin-right: 10px;
+  }
+  .footer .piebackground .col-center > div span:last-child {
+    margin-right: 0px;
+  }
+  .footer .piebackground .col-center .contacto {
+    margin-bottom: 20px;
+  }
+  .footer .piebackground .col-center .edificio span {
+    display: inline-block;
+    width: 100%;
+  }
+  .footer .piebackground .col-center .politicas {
+    box-sizing: border-box;
+    background: #334353;
+    padding: 20px 20px 10px 20px;
+  }
+  .footer .piebackground .col-center .politicas h2 {
+    display: inline-block;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    padding-top: 20px;
+  }
+  .footer .blocks-info {
+    display: none;
+    text-align: left;
+  }
+  .footer .blocks-info ul {
+    width: 180px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .footer .blocks-info {
+    text-align: left;
+  }
+  .footer .blocks-info ul {
+    width: 48%;
+  }
+}
+/******* Home Mobile **************/
+.bnoticias {
+  float: left;
+}
+.buscador {
+  box-sizing: border-box;
+  width: 100%;
+}
+.banner-home {
+  width: 310px;
+}
+@media only screen and (max-width: 980px) {
+  .col-center {
+    width: 100%;
+  }
+  .main {
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0px 20px;
+  }
+  .main .left {
+    width: 100%;
+  }
+  .main .indicadores {
+    box-sizing: border-box;
+    float: none;
+  }
+  .main .indicadores p {
+    text-align: center;
+  }
+  .main .indicadores strong {
+    float: none;
+    display: inline-block;
+  }
+  .main .slider {
+    float: none;
+  }
+  .main .slider .bxslider-home img {
+    width: 100%;
+  }
+  .main .slider .bx-pager {
+    text-align: center;
+  }
+  .main .slider .bx-pager .bx-pager-item {
+    display: inline-block;
+  }
+  .main .slider .frase1 {
+    margin-top: 60px;
+    top: 50%;
+  }
+  .main .slider .frase2 {
+    margin-top: 90px;
+    top: 50%;
+  }
+  .main .bnoticias .box-news {
+    width: 47%;
+  }
+  .main .bnoticias .box-news.box-news1 {
+    margin-right: 6%;
+  }
+  .main .box-info {
+    margin: 0 auto;
+    width: 650px;
+  }
+  .main .box-info .right {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main .indicadores {
+    width: 100%;
+  }
+  .main .slider .frase1 {
+    margin-top: -30px;
+    top: 50%;
+  }
+  .main .slider .frase2 {
+    margin-top: 0px;
+    top: 50%;
+  }
+  .main .bnoticias {
+    padding: 0px 20px;
+  }
+  .main .bnoticias .box-news {
+    width: 49%;
+  }
+  .main .bnoticias .box-news.box-news1 {
+    margin-right: 2%;
+  }
+  .main .box-info {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .main .box-info .buscador {
+    display: block;
+  }
+  .main .box-info .buscador .in {
+    width: 80%;
+  }
+  .main .box-info .buscador .bt {
+    float: right;
+    height: 32px;
+    width: 19%;
+  }
+  .main .box-info .calendario .txt {
+    box-sizing: border-box;
+    padding: 37px 10px 10px;
+  }
+  .main .box-info .right {
+    float: left;
+    width: 100%;
+  }
+  .main .box-info .banner-home {
+    margin: 10px 0px 0px;
+    text-align: center;
+    width: 48%;
+  }
+  .main .box-info .banner-home a {
+    display: inline-block;
+    width: 100%;
+  }
+  .main .box-info .banner-home a img {
+    width: 100%;
+  }
+  .main .box-info .banner-home:nth-child(even) {
+    margin-right: 4%;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .main .indicadores strong {
+    display: none;
+  }
+  .main .slider .frase1 {
+    box-sizing: border-box;
+    height: auto;
+    padding: 0px 20px;
+    width: 100%;
+  }
+  .main .slider .frase2 {
+    box-sizing: border-box;
+    height: auto;
+    padding: 0px 20px;
+    width: 100%;
+  }
+  .main .bnoticias {
+    display: none;
+  }
+  .main .left {
+    padding-bottom: 12px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .main .indicadores p {
+    font-size: 11px;
+  }
+  .main .slider .frase1 {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  .main .slider .frase2 {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  .main .banner .txt {
+    font-size: 17px;
+  }
+  .main .banner .txt02 {
+    font-size: 10px;
+  }
+  .main .box-info .banner-home {
+    width: 100%;
+  }
+  .main .box-info .banner-home:nth-child(even) {
+    margin-right: 0%;
+  }
+}
