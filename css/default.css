@@ -465,6 +465,12 @@ input {
   text-align: center;
   vertical-align: middle;
 }
+.banner-image {
+  margin-bottom: 20px;
+}
+.banner-image img {
+  width: 100%;
+}
 .top-indicadores {
   display: none;
   float: none;
@@ -516,7 +522,7 @@ input {
 }
 .container .top-title p span {
   display: inline-block;
-  width: 300px;
+  width: 350px;
 }
 .container .content {
   box-sizing: border-box;
@@ -927,12 +933,6 @@ input[type="radio"]:checked + label span {
 .ata p.small {
   color: #767676;
 }
-.ata .banner-image {
-  margin-bottom: 20px;
-}
-.ata .banner-image img {
-  width: 100%;
-}
 .ata .breadcrum {
   margin-bottom: 40px;
 }
@@ -1171,4 +1171,12 @@ input[type="radio"]:checked + label span {
     line-height: 20px;
     width: 80%;
   }
+}
+/************* Presentacion ****************/
+.presentacion .top-title {
+  margin-bottom: 0px;
+}
+.presentacion .tabs > div {
+  padding-left: 20px;
+  padding-right: 20px;
 }
