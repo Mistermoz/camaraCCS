@@ -1136,3 +1136,39 @@ input[type="radio"]:checked + label span {
     width: 100%;
   }
 }
+/************* Estudios ******************/
+.estudios .tabs > div {
+  border: 1px solid #4d6479;
+  padding: 0px 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.estudios .tabs p {
+  height: 1%;
+  overflow: hidden;
+  border-bottom: 1px solid #fd8339;
+  margin-bottom: 10px;
+  padding-bottom: 7px;
+}
+.estudios .tabs p img {
+  float: right;
+  position: relative;
+  bottom: 1px;
+}
+.estudios .tabs p span {
+  float: left;
+  line-height: 30px;
+  position: relative;
+  bottom: -8px;
+}
+@media only screen and (max-width: 480px) {
+  .estudios .tabs p img {
+    float: none;
+  }
+  .estudios .tabs p span {
+    display: inline-block;
+    float: none;
+    line-height: 20px;
+    width: 80%;
+  }
+}
