@@ -1180,3 +1180,16 @@ input[type="radio"]:checked + label span {
   padding-left: 20px;
   padding-right: 20px;
 }
+/************ Tarjeta Apec ***************/
+.tarjeta-apec .row-info .column-info {
+  vertical-align: bottom;
+  width: 48.5%;
+}
+.tarjeta-apec .row-info .column-info:last-child {
+  text-align: right;
+}
+.tarjeta-apec .row-info .column-info:last-child .box-column {
+  display: inline-block;
+  text-align: left;
+  width: 220px;
+}
