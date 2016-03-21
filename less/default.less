@@ -763,7 +763,7 @@ input {
 		height: 35px;
 		outline: none;
 		position: relative;
-		padding: 0px 15px 0px 2px;
+		padding: 0px 39px 0px 2px;
 		width: 135%;
 		z-index: 2;
 	}
@@ -1550,6 +1550,430 @@ input[type="radio"]:checked + label span{
 		>div {
 			padding-left: 20px;
 			padding-right: 20px;
+		}
+	}
+}
+
+/*********** Formas de pago ************/
+.formas_de_pago {
+	.tabs {
+		>div {
+			border: 1px solid @color2;
+			color: #777;
+			padding-right: 40px;
+			padding-left: 40px;
+		}
+	}
+
+	.row-form {
+		height: 1%;
+		margin-bottom: 30px;
+		overflow: hidden;
+
+		>.input {
+			float: left;
+			margin-right: 4%;
+
+			input[type='text'], .select {
+				width: 100%;
+			}
+
+			&:last-child {
+				margin-right: 0px;
+			}
+		}
+
+		&:nth-of-type(1) {
+			.input {
+				&:nth-of-type(1), &:nth-of-type(2) {
+					height: 1%;
+					overflow: hidden;
+					width: 28%;
+
+					.select-box {
+						float: left;
+
+						&:nth-of-type(1) {
+							margin-right: 2%;
+							width: 35%;
+						}
+
+						&:nth-of-type(2) {
+							width: 63%;
+						}
+					}
+				}
+
+				&:nth-of-type(3) {
+					width: 12%;
+				}
+
+				&:nth-of-type(4) {
+					width: 20%;
+				}
+			}
+		}
+
+		&:nth-of-type(2) {
+			.input {
+				&.select {
+					width: 22.6%;
+				}
+
+				&.text {
+					width: 20%;
+				}
+			}
+		}
+
+		&:nth-of-type(3) {
+			.input {
+				&.select {
+					margin-right: 2.5%;
+					width: 17.8%;
+				}
+
+				&.radio-choice {
+					margin-right: 2%;
+					width: 17%;
+
+					>label {
+						display: block;
+						width: 100%;
+					}
+
+					.radio {
+						display: inline-block;
+						margin-top: 0px;
+						vertical-align: middle;
+						width: 47%;
+
+						label {
+							padding-left: 0px;
+						}
+
+						input[type="radio"] + label span {
+							margin-left: 5px;
+							margin-top: -1px;
+						}
+
+						&:first-child {
+							margin-right: 2%;
+						}
+					}
+
+					&.radio2 {
+						float: left;
+						width: 15%;
+
+						.radio {
+							width: 100%;
+						}
+					}
+				}
+			}
+
+			.buttons {
+				float: left;
+				margin-top: 30px;
+				width: 23.4%;
+
+				a, input {
+					padding: 0px 10px;
+				}
+
+				a {
+					margin-right: 15px;
+				}
+			}
+		}
+	}
+
+	@media only screen and (max-width: 980px) {
+		.row-form {
+			>.input {
+				margin-right: 0%;
+			}
+
+			&:nth-of-type(1) {
+				.input {
+					&:nth-of-type(1), &:nth-of-type(2) {
+						margin-bottom: 20px;
+						width: 48%;
+
+						.select-box {
+							&:nth-of-type(1) {
+								margin-right: 2%;
+							}
+						}
+					}
+
+					&:nth-of-type(1) {
+						margin-right: 4%;
+					}
+
+					&:nth-of-type(3) {
+						margin-right: 4%;
+						width: 48%;
+					}
+
+					&:nth-of-type(4) {
+						width: 48%;
+					}
+				}
+			}
+
+			&:nth-of-type(2) {
+				.input {
+					&.select {
+						margin-bottom: 20px;
+						width: 48%;
+
+						&:nth-of-type(1) {
+							margin-right: 4%;
+						}
+
+						&:nth-of-type(3) {
+							margin-right: 4%;
+						}
+					}
+
+					&.text {
+						width: 48%;
+					}
+				}
+			}
+
+			&:nth-of-type(3) {
+				.input {
+					&.select {
+						margin-bottom: 20px;
+						margin-right: 2.5%;
+						width: 22.9%;
+
+						&:nth-of-type(2) {
+							margin-right: 4%;
+						}
+					}
+
+					&.radio-choice {
+						margin-bottom: 20px;
+						margin-right: 2%;
+						width: 24%;
+
+						&.radio2 {
+							width: 18%;
+						}
+					}
+				}
+
+				.buttons {
+					clear: both;
+					float: none;
+					margin-top: 30px;
+					text-align: center;
+					width: 100%;
+
+					a {
+						margin-right: 4%;
+					}
+				}
+			}
+		}
+
+		.transformer-tabs a {
+			font-size: 11px;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.row-form {
+			&:nth-of-type(3) {
+				.input {
+					&.select {
+						margin-bottom: 20px;
+						margin-right: 4%;
+						width: 48%;
+
+						&:nth-of-type(2) {
+							margin-right: 0%;
+						}
+					}
+
+					&.radio-choice {
+						margin-bottom: 20px;
+						margin-right: 4%;
+						width: 48%;
+
+						&.radio2 {
+							margin: 0px;
+							width: 48%;
+						}
+					}
+				}
+
+				.buttons {
+					clear: both;
+					float: none;
+					margin-top: 30px;
+					text-align: center;
+					width: 100%;
+
+					a {
+						margin-right: 4%;
+					}
+				}
+			}
+		}
+		.transformer-tabs {
+	    ul {
+	      border-bottom: 0;
+	      min-height: 40px;
+	      overflow: hidden;
+	      position: relative;
+	      background: @color2;
+
+	      &::after {
+	        content: "\f0d7";
+	        color: #ccc;
+			    display: inline-block;
+			    font-family: FontAwesome;
+			    font-size: 20px;
+			    line-height: 1;
+	        position: absolute;
+	        top: 12px;
+	        right: 20px;
+	        z-index: 2;
+	        pointer-events: none;
+	      }
+
+	      &.open {
+	        a {
+	          position: relative;
+	          display: block;
+	        }
+	      }
+	    }
+
+	    li {
+	    	border: 0px;
+	      display: block;
+	      position: relative;
+	    }
+
+	    a {
+	      position: absolute;
+	      top: 0;
+	      line-height: 30px;
+	      left: 0;
+	      text-align: center;
+	      width: 100%;
+
+	      &.active {
+	        z-index: 1;
+	        background: @color3;
+	      }
+	    }
+	  }
+  }
+
+  @media only screen and (max-width: 480px) {
+		.row-form {
+			&:nth-of-type(1) {
+				.input {
+					&:nth-of-type(1), &:nth-of-type(2) {
+						margin-bottom: 20px;
+						width: 100%;
+
+						.select-box {
+							&:nth-of-type(1) {
+								margin-right: 2%;
+							}
+						}
+					}
+
+					&:nth-of-type(1) {
+						margin-right: 0%;
+					}
+
+					&:nth-of-type(3) {
+						margin-right: 0%;
+						width: 100%;
+					}
+
+					&:nth-of-type(4) {
+						width: 100%;
+					}
+				}
+			}
+
+			&:nth-of-type(2) {
+				.input {
+					&.select {
+						margin-bottom: 20px;
+						width: 100%;
+
+						&:nth-of-type(1) {
+							margin-right: 0%;
+						}
+
+						&:nth-of-type(3) {
+							margin-right: 0%;
+						}
+					}
+
+					&.text {
+						width: 100%;
+					}
+				}
+			}
+
+			&:nth-of-type(3) {
+				.input {
+					&.select {
+						margin-bottom: 20px;
+						margin-right: 0%;
+						width: 100%;
+
+						&:nth-of-type(2) {
+							margin-right: 0%;
+						}
+					}
+
+					&.radio-choice {
+						margin-bottom: 20px;
+						margin-right: 0%;
+						width: 100%;
+
+						&.radio2 {
+							width: 100%;
+						}
+					}
+				}
+
+				.buttons {
+					clear: both;
+					float: none;
+					margin-top: 30px;
+					text-align: center;
+					width: 100%;
+
+					a {
+						margin-right: 4%;
+					}
+				}
+			}
+		}
+
+		.tabs {
+			>div {
+				padding-right: 20px;
+				padding-left: 20px;
+			}
+		}
+
+		.transformer-tabs a {
+			font-size: 11px;
 		}
 	}
 }

@@ -602,7 +602,7 @@ input {
   height: 35px;
   outline: none;
   position: relative;
-  padding: 0px 15px 0px 2px;
+  padding: 0px 39px 0px 2px;
   width: 135%;
   z-index: 2;
 }
@@ -1197,4 +1197,308 @@ input[type="radio"]:checked + label span {
 .visaciones .tabs > div {
   padding-left: 20px;
   padding-right: 20px;
+}
+/*********** Formas de pago ************/
+.formas_de_pago .tabs > div {
+  border: 1px solid #334353;
+  color: #777;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.formas_de_pago .row-form {
+  height: 1%;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.formas_de_pago .row-form > .input {
+  float: left;
+  margin-right: 4%;
+}
+.formas_de_pago .row-form > .input input[type='text'],
+.formas_de_pago .row-form > .input .select {
+  width: 100%;
+}
+.formas_de_pago .row-form > .input:last-child {
+  margin-right: 0px;
+}
+.formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(1),
+.formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(2) {
+  height: 1%;
+  overflow: hidden;
+  width: 28%;
+}
+.formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(1) .select-box,
+.formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(2) .select-box {
+  float: left;
+}
+.formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(1) .select-box:nth-of-type(1),
+.formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(2) .select-box:nth-of-type(1) {
+  margin-right: 2%;
+  width: 35%;
+}
+.formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(1) .select-box:nth-of-type(2),
+.formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(2) .select-box:nth-of-type(2) {
+  width: 63%;
+}
+.formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(3) {
+  width: 12%;
+}
+.formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(4) {
+  width: 20%;
+}
+.formas_de_pago .row-form:nth-of-type(2) .input.select {
+  width: 22.6%;
+}
+.formas_de_pago .row-form:nth-of-type(2) .input.text {
+  width: 20%;
+}
+.formas_de_pago .row-form:nth-of-type(3) .input.select {
+  margin-right: 2.5%;
+  width: 17.8%;
+}
+.formas_de_pago .row-form:nth-of-type(3) .input.radio-choice {
+  margin-right: 2%;
+  width: 17%;
+}
+.formas_de_pago .row-form:nth-of-type(3) .input.radio-choice > label {
+  display: block;
+  width: 100%;
+}
+.formas_de_pago .row-form:nth-of-type(3) .input.radio-choice .radio {
+  display: inline-block;
+  margin-top: 0px;
+  vertical-align: middle;
+  width: 47%;
+}
+.formas_de_pago .row-form:nth-of-type(3) .input.radio-choice .radio label {
+  padding-left: 0px;
+}
+.formas_de_pago .row-form:nth-of-type(3) .input.radio-choice .radio input[type="radio"] + label span {
+  margin-left: 5px;
+  margin-top: -1px;
+}
+.formas_de_pago .row-form:nth-of-type(3) .input.radio-choice .radio:first-child {
+  margin-right: 2%;
+}
+.formas_de_pago .row-form:nth-of-type(3) .input.radio-choice.radio2 {
+  float: left;
+  width: 15%;
+}
+.formas_de_pago .row-form:nth-of-type(3) .input.radio-choice.radio2 .radio {
+  width: 100%;
+}
+.formas_de_pago .row-form:nth-of-type(3) .buttons {
+  float: left;
+  margin-top: 30px;
+  width: 23.4%;
+}
+.formas_de_pago .row-form:nth-of-type(3) .buttons a,
+.formas_de_pago .row-form:nth-of-type(3) .buttons input {
+  padding: 0px 10px;
+}
+.formas_de_pago .row-form:nth-of-type(3) .buttons a {
+  margin-right: 15px;
+}
+@media only screen and (max-width: 980px) {
+  .formas_de_pago .row-form > .input {
+    margin-right: 0%;
+  }
+  .formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(1),
+  .formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(2) {
+    margin-bottom: 20px;
+    width: 48%;
+  }
+  .formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(1) .select-box:nth-of-type(1),
+  .formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(2) .select-box:nth-of-type(1) {
+    margin-right: 2%;
+  }
+  .formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(1) {
+    margin-right: 4%;
+  }
+  .formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(3) {
+    margin-right: 4%;
+    width: 48%;
+  }
+  .formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(4) {
+    width: 48%;
+  }
+  .formas_de_pago .row-form:nth-of-type(2) .input.select {
+    margin-bottom: 20px;
+    width: 48%;
+  }
+  .formas_de_pago .row-form:nth-of-type(2) .input.select:nth-of-type(1) {
+    margin-right: 4%;
+  }
+  .formas_de_pago .row-form:nth-of-type(2) .input.select:nth-of-type(3) {
+    margin-right: 4%;
+  }
+  .formas_de_pago .row-form:nth-of-type(2) .input.text {
+    width: 48%;
+  }
+  .formas_de_pago .row-form:nth-of-type(3) .input.select {
+    margin-bottom: 20px;
+    margin-right: 2.5%;
+    width: 22.9%;
+  }
+  .formas_de_pago .row-form:nth-of-type(3) .input.select:nth-of-type(2) {
+    margin-right: 4%;
+  }
+  .formas_de_pago .row-form:nth-of-type(3) .input.radio-choice {
+    margin-bottom: 20px;
+    margin-right: 2%;
+    width: 24%;
+  }
+  .formas_de_pago .row-form:nth-of-type(3) .input.radio-choice.radio2 {
+    width: 18%;
+  }
+  .formas_de_pago .row-form:nth-of-type(3) .buttons {
+    clear: both;
+    float: none;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  .formas_de_pago .row-form:nth-of-type(3) .buttons a {
+    margin-right: 4%;
+  }
+  .formas_de_pago .transformer-tabs a {
+    font-size: 11px;
+  }
+}
+@media (max-width: 768px) {
+  .formas_de_pago .row-form:nth-of-type(3) .input.select {
+    margin-bottom: 20px;
+    margin-right: 4%;
+    width: 48%;
+  }
+  .formas_de_pago .row-form:nth-of-type(3) .input.select:nth-of-type(2) {
+    margin-right: 0%;
+  }
+  .formas_de_pago .row-form:nth-of-type(3) .input.radio-choice {
+    margin-bottom: 20px;
+    margin-right: 4%;
+    width: 48%;
+  }
+  .formas_de_pago .row-form:nth-of-type(3) .input.radio-choice.radio2 {
+    margin: 0px;
+    width: 48%;
+  }
+  .formas_de_pago .row-form:nth-of-type(3) .buttons {
+    clear: both;
+    float: none;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  .formas_de_pago .row-form:nth-of-type(3) .buttons a {
+    margin-right: 4%;
+  }
+  .formas_de_pago .transformer-tabs ul {
+    border-bottom: 0;
+    min-height: 40px;
+    overflow: hidden;
+    position: relative;
+    background: #334353;
+  }
+  .formas_de_pago .transformer-tabs ul::after {
+    content: "\f0d7";
+    color: #ccc;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 20px;
+    line-height: 1;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    z-index: 2;
+    pointer-events: none;
+  }
+  .formas_de_pago .transformer-tabs ul.open a {
+    position: relative;
+    display: block;
+  }
+  .formas_de_pago .transformer-tabs li {
+    border: 0px;
+    display: block;
+    position: relative;
+  }
+  .formas_de_pago .transformer-tabs a {
+    position: absolute;
+    top: 0;
+    line-height: 30px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .formas_de_pago .transformer-tabs a.active {
+    z-index: 1;
+    background: #4d6479;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(1),
+  .formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(2) {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(1) .select-box:nth-of-type(1),
+  .formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(2) .select-box:nth-of-type(1) {
+    margin-right: 2%;
+  }
+  .formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(1) {
+    margin-right: 0%;
+  }
+  .formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(3) {
+    margin-right: 0%;
+    width: 100%;
+  }
+  .formas_de_pago .row-form:nth-of-type(1) .input:nth-of-type(4) {
+    width: 100%;
+  }
+  .formas_de_pago .row-form:nth-of-type(2) .input.select {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .formas_de_pago .row-form:nth-of-type(2) .input.select:nth-of-type(1) {
+    margin-right: 0%;
+  }
+  .formas_de_pago .row-form:nth-of-type(2) .input.select:nth-of-type(3) {
+    margin-right: 0%;
+  }
+  .formas_de_pago .row-form:nth-of-type(2) .input.text {
+    width: 100%;
+  }
+  .formas_de_pago .row-form:nth-of-type(3) .input.select {
+    margin-bottom: 20px;
+    margin-right: 0%;
+    width: 100%;
+  }
+  .formas_de_pago .row-form:nth-of-type(3) .input.select:nth-of-type(2) {
+    margin-right: 0%;
+  }
+  .formas_de_pago .row-form:nth-of-type(3) .input.radio-choice {
+    margin-bottom: 20px;
+    margin-right: 0%;
+    width: 100%;
+  }
+  .formas_de_pago .row-form:nth-of-type(3) .input.radio-choice.radio2 {
+    width: 100%;
+  }
+  .formas_de_pago .row-form:nth-of-type(3) .buttons {
+    clear: both;
+    float: none;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  .formas_de_pago .row-form:nth-of-type(3) .buttons a {
+    margin-right: 4%;
+  }
+  .formas_de_pago .tabs > div {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .formas_de_pago .transformer-tabs a {
+    font-size: 11px;
+  }
 }
