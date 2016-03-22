@@ -4,17 +4,19 @@
 	</div>
 
 	<div class="container">
-		<div class="top-title">
-			<h2 class="title">Calculadora de Aranceles</h2>
+		<div class="title">
+			<h2>Calculadora de Aranceles</h2>
 
-			<p class="description"><span>Identifique los Aranceles y condiciones especiales de los Acuerdos Comerciales suscritos por Chile.</span></p>
+			<p><span>Identifique los Aranceles y condiciones especiales de los Acuerdos Comerciales suscritos por Chile.</span></p>
 		</div>
 
 		<div class="content">
-			<div class="breadcrum">
-				<a href="/" class="first">Home</a>
-				<a href="#">Calculadora de Aranceles</a>
-				<a href="" class="last">Exportación</a>
+			<div class="breadcrumb">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="#">Calculadora de Aranceles</a></li>
+					<li class="active">Exportación</li>
+				</ul>
 			</div>
 
 			<h3 class="pcolor">Seleccione el Tipo de Busqueda - Exportación</h3>

@@ -14,6 +14,7 @@
 <link href="css/flag-icon.css" rel="Stylesheet" type="text/css" />
 <link href="css/jquery-ui.min.css" rel="Stylesheet" type="text/css" />
 <link href="css/jquery-ui.theme.min.css" rel="Stylesheet" type="text/css" />
+<link href="css/main.css" rel="Stylesheet" type="text/css" />
 <link href="css/default.css" rel="Stylesheet" media="screen" type="text/css" />
 <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'> -->
 

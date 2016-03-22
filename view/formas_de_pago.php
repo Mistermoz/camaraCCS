@@ -4,17 +4,19 @@
 	</div>
 		
 	<div class="container">
-		<div class="top-title">
-			<h2 class="title">Formas de Pago</h2>
+		<div class="title">
+			<h2>Formas de Pago</h2>
 
-			<p class="description"><span></span></p>
+			<p><span></span></p>
 		</div>
 
 		<div class="content">
-			<div class="breadcrum">
-				<a href="/" class="first">Home</a>
-				<a href="#">Formas de pago</a>
-				<a href="#" class="last">Consultas por RUT País</a>
+			<div class="breadcrumb">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Formas de pago</a></li>
+					<li class="active">Consultas por RUT País</li>
+				</ul>
 			</div>
 
 			<div class="tabs"> 

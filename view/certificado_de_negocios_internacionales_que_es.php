@@ -4,16 +4,18 @@
 	</div>
 		
 	<div class="container">
-		<div class="top-title">
-			<h2 class="title">Certificado de negocios EMPRESARIALES</h2>
+		<div class="title">
+			<h2>Certificado de negocios EMPRESARIALES</h2>
 
-			<p class="description"><span>Valide los datos de su empresa para presentar a sus contrapartes comerciales.</span></p>
+			<p><span>Valide los datos de su empresa para presentar a sus contrapartes comerciales.</span></p>
 		</div>
 
 		<div class="content">
-			<div class="breadcrum">
-				<a href="/" class="first">Home</a>
-				<a href="" class="last">Certificado de Negocios Internacionales</a>
+			<div class="breadcrumb">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li class="active">Certificado de Negocios Internacionales</li>
+				</ul>
 			</div>
 
 			<div class="tabs"> 

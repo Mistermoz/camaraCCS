@@ -4,16 +4,18 @@
 	</div>
 		
 	<div class="container">
-		<div class="top-title">
-			<h2 class="title">Visaciones</h2>
+		<div class="title">
+			<h2>Visaciones</h2>
 
-			<p class="description"><span>Valide sus documentos de exportación tales como facturas, listas de precios y otros.</span></p>
+			<p><span>Valide sus documentos de exportación tales como facturas, listas de precios y otros.</span></p>
 		</div>
 
 		<div class="content">
-			<div class="breadcrum">
-				<a href="/" class="first">Home</a>
-				<a href="" class="last">Visaciones</a>
+			<div class="breadcrumb">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li class="active">Visaciones</li>
+				</ul>
 			</div>
 
 			<div class="tabs"> 

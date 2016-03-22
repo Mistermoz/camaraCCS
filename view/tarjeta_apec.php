@@ -4,10 +4,10 @@
 	</div>
 		
 	<div class="container">
-		<div class="top-title">
-			<h2 class="title">TARJETA APEC</h2>
+		<div class="title">
+			<h2>TARJETA APEC</h2>
 
-			<p class="description"><span>Viajes de negocios a los Países del APEC sin necesidad de Visa.</span></p>
+			<p><span>Viajes de negocios a los Países del APEC sin necesidad de Visa.</span></p>
 		</div>
 
 		<div class="banner-image">
@@ -15,9 +15,11 @@
 		</div>
 
 		<div class="content">
-			<div class="breadcrum">
-				<a href="/" class="first">Home</a>
-				<a href="" class="last">Certificado de Negocios Internacionales</a>
+			<div class="breadcrumb">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li class="active">Certificado de Negocios Internacionales</li>
+				</ul>
 			</div>
 
 			<div class="tabs"> 

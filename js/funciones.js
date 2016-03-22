@@ -60,6 +60,13 @@ $(document).ready(function(){
 	});
 
 	$(window).load(function() {
+		// Funciones de collapse
+
+		$('.collapse_head').click(function(){
+			$(this).toggleClass('open'); 
+			$(this).parent().find('.collapse_body').slideToggle('fast');
+		});	
+		
 		/********* Mobile Menu *******/
 
 		if($(window).width() > 768) {

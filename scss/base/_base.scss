@@ -1,0 +1,15 @@
+@import '../base/variables';
+
+* {
+   box-sizing: border-box;
+}
+
+section {
+   display: block;
+   width: 100%;
+}
+
+.inner {
+   margin: 0px auto;
+   max-width: 950px;
+}

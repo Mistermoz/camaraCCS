@@ -581,6 +581,10 @@ input {
 	padding: 0px 5px;
 }
 
+.collapse {
+	display: block;
+}
+
 #ui-datepicker-div {
 	z-index: 2 !important;
 }
@@ -616,6 +620,10 @@ input {
 	float: none;
 	margin-bottom: 20px;
 	margin-top: 10px;
+
+	p {
+		text-align: center;
+	}
 }
 
 .container {
@@ -637,37 +645,12 @@ input {
 		margin-bottom: 20px;
 	}
 
-	.top-title {
-		background: url(../img/bg-title.jpg) 0 0 no-repeat;
-		border-bottom: 1px solid @color1;
-		box-sizing: border-box;
-		color: #fff;
-		margin-bottom: 15px;
-		padding: 15px 20px;
-
+	.title {
 		h2 {
-			display: inline-block;
-			font-size: 15px;
+			float: left;
 			font-weight: bold;
-			margin: 0px;
-			text-align: left;
-			text-transform: uppercase;
-			vertical-align: middle;
-			width: 49%;
-		}
-
-		p {
-			display: inline-block;
-			font-size: 12px;
-			margin: 0px;
-			text-align: right;
-			vertical-align: middle;
-			width: 49%;
-
-			span {
-				display: inline-block;
-				width: 350px;
-			}
+			margin-bottom: 0px;
+			margin-top: 0px;
 		}
 	}
 
@@ -676,20 +659,34 @@ input {
 		padding: 0px 20px;
 	}
 
-	.breadcrum {
+	.breadcrumb {
 		margin-bottom: 15px;
 		text-align: left;
 
 		a {
 			color: @color3;
 			font-size: 13px;
+		}
 
-			&.first {
+		li {
+			display: inline-block;
+			vertical-align: middle;
+			
+			&:nth-of-type(1) {
 				text-decoration: underline;
+			}
+
+			&.active {
+				color: @color1;
+
+				&:after {
+					display: none;
+				}
 			}
 
 			&:after {
 				content: '\f105';
+				color: @color3;
 		    display: inline-block;
 		    font-family: FontAwesome;
 		    font-size: 13px;
@@ -699,18 +696,11 @@ input {
 		    margin-right: 5px;
 		    vertical-align: 0px;
 			}
-
-			&.last {
-				color: @color1;
-
-				&:after {
-					display: none;
-				}
-			}
 		}
 	}
 
 	.bottom-content {
+		clear: both;
 		height: 1%;
 		margin-bottom: 20px;
 		overflow: hidden;
@@ -900,6 +890,23 @@ input {
   }
 }
 
+.country {
+	float: left;
+	margin-bottom: 2px;
+	width: 25%;
+}
+
+.countries {
+	p {
+		padding-top: 30px;
+	}
+}
+
+.list-countries {
+	height: 1%;
+	overflow: hidden;
+}
+
 @media only screen and (max-width: 980px) {
 	.container {
 		overflow: hidden;
@@ -938,7 +945,7 @@ input {
 	}
 
 	.container {
-		.top-title {
+		.title {
 			h2 {
 				width: 100%;
 			}
@@ -947,6 +954,10 @@ input {
 				display: none;
 			}
 		}
+	}
+
+	.country {
+		width: 50%;
 	}
 }
 
@@ -1025,7 +1036,7 @@ input[type="radio"]:checked + label span{
 		}
 	}
 
-	.breadcrum {
+	.breadcrumb {
 		margin-bottom: 30px;
 	}
 
@@ -1091,7 +1102,7 @@ input[type="radio"]:checked + label span{
 		}
 	}
 
-	.breadcrum {
+	.breadcrumb {
 		margin-bottom: 30px;
 	}
 
@@ -1188,29 +1199,12 @@ input[type="radio"]:checked + label span{
 		color: #767676;
 	}
 
-	.breadcrum {
+	.breadcrumb {
 		margin-bottom: 40px;
 	}
 
 	.border-one {
 		border-bottom: 1px solid @color1;
-	}
-
-	.country {
-		float: left;
-		margin-bottom: 2px;
-		width: 25%;
-	}
-
-	.countries {
-		p {
-			padding-top: 30px;
-		}
-	}
-
-	.list-countries {
-		height: 1%;
-		overflow: hidden;
 	}
 
 	.row-info {
@@ -1257,7 +1251,7 @@ input[type="radio"]:checked + label span{
 		}
 	}
 
-	.top-title {
+	.title {
 		margin-bottom: 0px;
 	}
 
@@ -1512,7 +1506,7 @@ input[type="radio"]:checked + label span{
 
 /************* Presentacion ****************/
 .presentacion {
-	.top-title {
+	.title {
 		margin-bottom: 0px;
 	}
 
@@ -1786,7 +1780,7 @@ input[type="radio"]:checked + label span{
 		}
 	}
 
-	@media (max-width: 768px) {
+	@media only screen and (max-width: 768px) {
 		.row-form {
 			&:nth-of-type(3) {
 				.input {

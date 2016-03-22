@@ -1,20 +1,21 @@
-<div class="main calculadora home">
+<section class="main calculadora home">
 	<div class="indicadores top-indicadores">
 		<p><span>UF: 25.350,09</span>   -    <span>Dólar Obs: $715,8</span>   -  <span>Euro: $710,5</span></p>
 	</div>
 		
 	<div class="container">
-		<div class="top-title">
-			<h2 class="title">Calculadora de Aranceles</h2>
+		<div class="title">
+			<h2>Calculadora de Aranceles</h2>
 
-			<p class="description"><span>Identifique los Aranceles y condiciones especiales de los Acuerdos Comerciales suscritos por Chile.</span></p>
+			<p><span>Identifique los Aranceles y condiciones especiales de los Acuerdos Comerciales suscritos por Chile.</span></p>
 		</div>
 
 		<div class="content">
-			<div class="breadcrum">
-				<a href="/" class="first">Home</a>
-				<a href="#">Calculadora de Aranceles</a>
-				<a href="" class="last">Exportación</a>
+			<div class="breadcrumb">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li class="active">Calculadora de Aranceles</li>
+				</ul>
 			</div>
 
 			<h3 class="pcolor">Seleccione el tipo de información a consultar</h3>
@@ -106,4 +107,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>

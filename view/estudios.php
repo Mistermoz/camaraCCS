@@ -4,16 +4,18 @@
 	</div>
 		
 	<div class="container">
-		<div class="top-title">
-			<h2 class="title">Estudios</h2>
+		<div class="title">
+			<h2>Estudios</h2>
 
-			<p class="description"><span>Acceda a una selección de Estudios de Mercado recopilados de distintas fuentes.</span></p>
+			<p><span>Acceda a una selección de Estudios de Mercado recopilados de distintas fuentes.</span></p>
 		</div>
 
 		<div class="content">
-			<div class="breadcrum">
-				<a href="/" class="first">Home</a>
-				<a href="" class="last">Estudios</a>
+			<div class="breadcrumb">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li class="active">Estudios</li>
+				</ul>
 			</div>
 
 			<div class="tabs"> 

@@ -1,5 +1,5 @@
 <?php include ("header.php");?>
 
-	<?php include ('view/formas_de_pago.php'); ?>
+	<?php include ('view/normativa_sag.php'); ?>
     
 <?php include ("footer.php");?>

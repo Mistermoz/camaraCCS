@@ -1,13 +1,13 @@
-<div class="main ata">
+<section class="main ata">
 	<div class="indicadores top-indicadores">
 		<p><span>UF: 25.350,09</span>   -    <span>Dólar Obs: $715,8</span>   -  <span>Euro: $710,5</span></p>
 	</div>
 		
 	<div class="container">
-		<div class="top-title">
-			<h2 class="title">CARNET ATA</h2>
+		<div class="title">
+			<h2>CARNET ATA</h2>
 
-			<p class="description"><span>Pasaporte de mercancías para salidas temporales a ferias, exposiciones y de material profesional.</span></p>
+			<p><span>Pasaporte de mercancías para salidas temporales a ferias, exposiciones y de material profesional.</span></p>
 		</div>
 
 		<div class="banner-image">
@@ -15,9 +15,11 @@
 		</div>
 
 		<div class="content">
-			<div class="breadcrum">
-				<a href="/" class="first">Home</a>
-				<a href="" class="last">Certificado de Negocios Internacionales</a>
+			<div class="breadcrumb">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li class="active">Certificado de Negocios Internacionales</li>
+				</ul>
 			</div>
 
 			<div class="tabs"> 
@@ -117,4 +119,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>

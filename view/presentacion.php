@@ -4,10 +4,10 @@
 	</div>
 		
 	<div class="container">
-		<div class="top-title">
-			<h2 class="title">PRESENTACIÓN CHILE</h2>
+		<div class="title">
+			<h2>PRESENTACIÓN CHILE</h2>
 
-			<p class="description"><span>Apoye sus negocios internacionales con cifras macroeconómicas y de interés empresarial acerca de Chile.</span></p>
+			<p><span>Apoye sus negocios internacionales con cifras macroeconómicas y de interés empresarial acerca de Chile.</span></p>
 		</div>
 
 		<div class="banner-image">
@@ -15,9 +15,11 @@
 		</div>
 
 		<div class="content">
-			<div class="breadcrum">
-				<a href="/" class="first">Home</a>
-				<a href="" class="last">Presentación de Chile</a>
+			<div class="breadcrumb">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li class="active">Presentación de Chile</li>
+				</ul>
 			</div>
 
 			<div class="tabs"> 

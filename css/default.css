@@ -445,6 +445,9 @@ input {
   height: 35px;
   padding: 0px 5px;
 }
+.collapse {
+  display: block;
+}
 #ui-datepicker-div {
   z-index: 2 !important;
 }
@@ -477,6 +480,9 @@ input {
   margin-bottom: 20px;
   margin-top: 10px;
 }
+.top-indicadores p {
+  text-align: center;
+}
 .container {
   clear: both;
   font-family: 'Open Sans', sans-serif;
@@ -494,53 +500,40 @@ input {
   font-size: 13px;
   margin-bottom: 20px;
 }
-.container .top-title {
-  background: url(../img/bg-title.jpg) 0 0 no-repeat;
-  border-bottom: 1px solid #fd8339;
-  box-sizing: border-box;
-  color: #fff;
-  margin-bottom: 15px;
-  padding: 15px 20px;
-}
-.container .top-title h2 {
-  display: inline-block;
-  font-size: 15px;
+.container .title h2 {
+  float: left;
   font-weight: bold;
-  margin: 0px;
-  text-align: left;
-  text-transform: uppercase;
-  vertical-align: middle;
-  width: 49%;
-}
-.container .top-title p {
-  display: inline-block;
-  font-size: 12px;
-  margin: 0px;
-  text-align: right;
-  vertical-align: middle;
-  width: 49%;
-}
-.container .top-title p span {
-  display: inline-block;
-  width: 350px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .container .content {
   box-sizing: border-box;
   padding: 0px 20px;
 }
-.container .breadcrum {
+.container .breadcrumb {
   margin-bottom: 15px;
   text-align: left;
 }
-.container .breadcrum a {
+.container .breadcrumb a {
   color: #4d6479;
   font-size: 13px;
 }
-.container .breadcrum a.first {
+.container .breadcrumb li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.container .breadcrumb li:nth-of-type(1) {
   text-decoration: underline;
 }
-.container .breadcrum a:after {
+.container .breadcrumb li.active {
+  color: #fd8339;
+}
+.container .breadcrumb li.active:after {
+  display: none;
+}
+.container .breadcrumb li:after {
   content: '\f105';
+  color: #4d6479;
   display: inline-block;
   font-family: FontAwesome;
   font-size: 13px;
@@ -550,13 +543,8 @@ input {
   margin-right: 5px;
   vertical-align: 0px;
 }
-.container .breadcrum a.last {
-  color: #fd8339;
-}
-.container .breadcrum a.last:after {
-  display: none;
-}
 .container .bottom-content {
+  clear: both;
   height: 1%;
   margin-bottom: 20px;
   overflow: hidden;
@@ -718,6 +706,18 @@ input {
 .tabs > .active {
   display: block;
 }
+.country {
+  float: left;
+  margin-bottom: 2px;
+  width: 25%;
+}
+.countries p {
+  padding-top: 30px;
+}
+.list-countries {
+  height: 1%;
+  overflow: hidden;
+}
 @media only screen and (max-width: 980px) {
   .container {
     overflow: hidden;
@@ -743,11 +743,14 @@ input {
   .tabs {
     padding: 0px;
   }
-  .container .top-title h2 {
+  .container .title h2 {
     width: 100%;
   }
-  .container .top-title p {
+  .container .title p {
     display: none;
+  }
+  .country {
+    width: 50%;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -807,7 +810,7 @@ input[type="radio"]:checked + label span {
 .calculadora.interior form .button input[type="submit"] {
   padding: 0px 20px;
 }
-.calculadora.interior .breadcrum {
+.calculadora.interior .breadcrumb {
   margin-bottom: 30px;
 }
 .calculadora.interior .container {
@@ -858,7 +861,7 @@ input[type="radio"]:checked + label span {
   transition: opacity 250ms;
   opacity: 1;
 }
-.calculadora.home .breadcrum {
+.calculadora.home .breadcrumb {
   margin-bottom: 30px;
 }
 .calculadora.home .control {
@@ -933,23 +936,11 @@ input[type="radio"]:checked + label span {
 .ata p.small {
   color: #767676;
 }
-.ata .breadcrum {
+.ata .breadcrumb {
   margin-bottom: 40px;
 }
 .ata .border-one {
   border-bottom: 1px solid #fd8339;
-}
-.ata .country {
-  float: left;
-  margin-bottom: 2px;
-  width: 25%;
-}
-.ata .countries p {
-  padding-top: 30px;
-}
-.ata .list-countries {
-  height: 1%;
-  overflow: hidden;
 }
 .ata .row-info {
   margin-bottom: 30px;
@@ -987,7 +978,7 @@ input[type="radio"]:checked + label span {
 .ata .row-info.bottom-banners {
   padding-top: 40px;
 }
-.ata .top-title {
+.ata .title {
   margin-bottom: 0px;
 }
 @media only screen and (max-width: 980px) {
@@ -1173,7 +1164,7 @@ input[type="radio"]:checked + label span {
   }
 }
 /************* Presentacion ****************/
-.presentacion .top-title {
+.presentacion .title {
   margin-bottom: 0px;
 }
 .presentacion .tabs > div {
@@ -1365,7 +1356,7 @@ input[type="radio"]:checked + label span {
     font-size: 11px;
   }
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .formas_de_pago .row-form:nth-of-type(3) .input.select {
     margin-bottom: 20px;
     margin-right: 4%;
