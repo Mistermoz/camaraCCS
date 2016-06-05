@@ -50,7 +50,7 @@
             </ul>
         </div>
             
-        <div class="logo"><img src="img/logofooter.png" /></div>
+        <div class="logo"><img src="./img/logofooter.png" /></div>
             
             
       </div>
