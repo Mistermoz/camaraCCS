@@ -33,9 +33,11 @@
 						
 						<div class="container-items">
 							<div class="month-item show">
-								<p class="day">Martes 15</p>
+								<a href="#">
+									<p class="day">Martes 15</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 						</div>
 					
@@ -51,21 +53,27 @@
 						
 						<div class="container-items">
 							<div class="month-item show">
-								<p class="day">Martes 15</p>
+								<a href="#">
+									<p class="day">Martes 15</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 
 							<div class="month-item">
-								<p class="day">Martes 16</p>
+								<a href="#">
+									<p class="day">Martes 16</p>
 
-								<p class="name">Capacitación Portal Comex 2</p>
+									<p class="name">Capacitación Portal Comex 2</p>
+								</a>
 							</div>
 
 							<div class="month-item">
-								<p class="day">Martes 17</p>
+								<a href="">
+									<p class="day">Martes 17</p>
 
-								<p class="name">Capacitación Portal Comex 3</p>
+									<p class="name">Capacitación Portal Comex 3</p>
+								</a>
 							</div>
 						</div>
 						<button class="fa fa-angle-right"></button>
@@ -80,17 +88,22 @@
 						
 						<div class="container-items">
 							<div class="month-item show">
-								<p class="day">Martes 15</p>
+								<a href="#">
+									<p class="day">Martes 15</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 
 							<div class="month-item">
-								<p class="day">Martes 16</p>
+								<a href="#">
+									<p class="day">Martes 16</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 						</div>
+						
 						<button class="fa fa-angle-right"></button>
 					</div>
 				</div>
@@ -103,17 +116,22 @@
 						
 						<div class="container-items">
 							<div class="month-item show">
-								<p class="day">Martes 15</p>
+								<a href="#">
+									<p class="day">Martes 15</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 
 							<div class="month-item">
-								<p class="day">Martes 16</p>
+								<a href="#">
+									<p class="day">Martes 16</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 						</div>
+						
 						<button class="fa fa-angle-right"></button>
 					</div>
 				</div>
@@ -126,17 +144,22 @@
 						
 						<div class="container-items">
 							<div class="month-item show">
-								<p class="day">Martes 15</p>
+								<a href="#">
+									<p class="day">Martes 15</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 
 							<div class="month-item">
-								<p class="day">Martes 16</p>
+								<a href="#">
+									<p class="day">Martes 16</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 						</div>
+						
 						<button class="fa fa-angle-right"></button>
 					</div>
 				</div>
@@ -149,17 +172,22 @@
 						
 						<div class="container-items">
 							<div class="month-item show">
-								<p class="day">Martes 15</p>
+								<a href="#">
+									<p class="day">Martes 15</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 
 							<div class="month-item">
-								<p class="day">Martes 16</p>
+								<a href="#">
+									<p class="day">Martes 16</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 						</div>
+						
 						<button class="fa fa-angle-right"></button>
 					</div>
 				</div>
@@ -172,17 +200,22 @@
 						
 						<div class="container-items">
 							<div class="month-item show">
-								<p class="day">Martes 15</p>
+								<a href="#">
+									<p class="day">Martes 15</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 
 							<div class="month-item">
-								<p class="day">Martes 16</p>
+								<a href="#">
+									<p class="day">Martes 16</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 						</div>
+						
 						<button class="fa fa-angle-right"></button>
 					</div>
 				</div>
@@ -195,17 +228,22 @@
 						
 						<div class="container-items">
 							<div class="month-item show">
-								<p class="day">Martes 15</p>
+								<a href="#">
+									<p class="day">Martes 15</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 
 							<div class="month-item">
-								<p class="day">Martes 16</p>
+								<a href="#">
+									<p class="day">Martes 16</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 						</div>
+						
 						<button class="fa fa-angle-right"></button>
 					</div>
 				</div>
@@ -218,17 +256,22 @@
 						
 						<div class="container-items">
 							<div class="month-item show">
-								<p class="day">Martes 15</p>
+								<a href="#">
+									<p class="day">Martes 15</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 
 							<div class="month-item">
-								<p class="day">Martes 16</p>
+								<a href="#">
+									<p class="day">Martes 16</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 						</div>
+						
 						<button class="fa fa-angle-right"></button>
 					</div>
 				</div>
@@ -241,17 +284,22 @@
 						
 						<div class="container-items">
 							<div class="month-item show">
-								<p class="day">Martes 15</p>
+								<a href="#">
+									<p class="day">Martes 15</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 
 							<div class="month-item">
-								<p class="day">Martes 16</p>
+								<a href="#">
+									<p class="day">Martes 16</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 						</div>
+						
 						<button class="fa fa-angle-right"></button>
 					</div>
 				</div>
@@ -264,17 +312,22 @@
 						
 						<div class="container-items">
 							<div class="month-item show">
-								<p class="day">Martes 15</p>
+								<a href="#">
+									<p class="day">Martes 15</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 
 							<div class="month-item">
-								<p class="day">Martes 16</p>
+								<a href="#">
+									<p class="day">Martes 16</p>
 
-								<p class="name">Capacitación Portal Comex</p>
+									<p class="name">Capacitación Portal Comex</p>
+								</a>
 							</div>
 						</div>
+						
 						<button class="fa fa-angle-right"></button>
 					</div>
 				</div>

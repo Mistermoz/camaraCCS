@@ -1549,6 +1549,9 @@ input[type="radio"]:checked + label span {
     padding: 0px;
   }
 }
+.capacitaciones .calendar-items a {
+  display: inline-block;
+}
 .capacitaciones .calendar-items button {
   background: #dde4ec;
   border: none;
