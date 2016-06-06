@@ -1,18 +1,18 @@
-<section class="main">
+<section class="main home cuenta_usuario">
   <div class="indicadores top-indicadores">
     <p><span>UF: 25.350,09</span>   -    <span>Dólar Obs: $715,8</span>   -  <span>Euro: $710,5</span></p>
   </div>
 
- <div class="container">
+ <div class="container two">
     <div class="title">
        <h2>Cuentas de usuario</h2>
     </div>
     
-    <div class="content">
+    <div class="content two">
       <div class="breadcrumb">
          <ul>
             <li><a href="#">Home</a></li>
-            <li class="active">Cuenta de usuario</li>
+            <li class="active">Cuenta de Usuario</li>
          </ul>
       </div>
 
@@ -34,8 +34,9 @@
             <input type="submit" value="Ingreso Clientes">
           </div>
 
-          <div class="input recordar">
-            <input type="radio" name="gender" value="male"> Recordar Sesión
+          <div class="input radio">
+            <input type="radio" name="recover" id="tipo1" checked>
+            <label for="tipo1">Recordar Sesión <span></span></label>
           </div>
         </form>
       </div>

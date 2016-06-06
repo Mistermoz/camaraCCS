@@ -34,7 +34,7 @@ form{ float:left;}
 
 .nav-top{ width:600px; float:right; height:28px; line-height:28px; }
 .nav-top li{ float:left; height:28px; line-height:28px;}
-.nav-top li a{ font-size:11px; color:#334353; height:28px; line-height:28px; display:block; padding:0 15px;
+.nav-top li a{ font-size:11px; color:#334353; height:28px; line-height:28px; display:block; padding:0 10px;
 -webkit-border-bottom-right-radius: 4px;
 -webkit-border-bottom-left-radius: 4px;
 -moz-border-radius-bottomright: 4px;
@@ -42,6 +42,27 @@ form{ float:left;}
 border-bottom-right-radius: 4px;
 border-bottom-left-radius: 4px;
 }
+
+@media (max-width: 640px) {
+   div.header .nav-top  {
+      margin-top: -3px;
+   }
+
+   .nav-top li a {
+      font-size: 8px !important;
+   }
+
+   .nav-top li a span{
+      display: none;
+   }   
+}
+
+@media (max-width: 480px) {
+   .nav-top li a {
+      padding: 0px 5px;
+   }
+}
+
 .nav-top li a:hover{ background:#F77A2F;}
 .nav-top .especial{ background:#BBCADA;}
 
@@ -75,7 +96,7 @@ border-bottom-left-radius: 4px;
 .indicadores{ width:100%; float:left; margin:0px; background:#DDE5ED; height:25px; line-height:25px;}
 .indicadores p{ font-size:12px; color:#334353; font-weight:600;}
 .indicadores strong{ width:221px; text-align:center; background:#BBCADA; display:block; float:left; margin-right:30px;}
-.indicadores span{ padding:0px 10px;}
+.indicadores span{ padding:0px 7px;}
 
 .slider{ width:100%; margin-top:10px; float:left;}
 .slider li{ position:relative;}

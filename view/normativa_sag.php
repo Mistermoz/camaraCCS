@@ -1,16 +1,16 @@
-<section class="main">
+<section class="main home">
   <div class="indicadores top-indicadores">
     <p><span>UF: 25.350,09</span>   -    <span>Dólar Obs: $715,8</span>   -  <span>Euro: $710,5</span></p>
   </div>
 
-  <div class="container">
+  <div class="container two">
     <div class="title">
        <h2>Normativas servicio agrícola y ganadero</h2>
 
        <p>Acceda a las regulaciones de Impo/Expo para productos Agrícolas, forestales y pecuarios.</p>
     </div>
     
-    <div class="content">
+    <div class="content two">
       <div class="breadcrumb">
          <ul>
             <li><a href="#">Home</a></li>
@@ -18,7 +18,7 @@
          </ul>
       </div>
 
-      <div class="wrap-text">
+      <div class="wrap-text pdb10">
          <p>
           El reconocimiento internacional a los avances de Chile en el mejoramiento de su patrimonio fitozoosanitario ha sido fundamental para consolidar y abrir los mercados a las exportaciones nacionales.
           Como organismo Oficial de Certificación Sanitaria, el SAG constituye una garantía para los mercados de frutas, hortalizas, vinos y productos animales.
@@ -29,7 +29,7 @@
       <div class="servicios-sag">
         <div class="item">
           <div class="thumb">
-            <img src="img/sag-thumb-1.jpg" alt="Sag">
+            <img src="../img/sag-thumb-1.jpg" alt="Sag">
           </div>
 
           <p>Agrícola</p>
@@ -37,7 +37,7 @@
 
         <div class="item">
           <div class="thumb">
-            <img src="img/sag-thumb-2.jpg" alt="Sag">
+            <img src="../img/sag-thumb-2.jpg" alt="Sag">
           </div>
 
           <p>Forestal</p>
@@ -45,7 +45,7 @@
 
         <div class="item">
           <div class="thumb">
-            <img src="img/sag-thumb-3.jpg" alt="Sag">
+            <img src="../img/sag-thumb-3.jpg" alt="Sag">
           </div>
 
           <p>Pecuario</p>

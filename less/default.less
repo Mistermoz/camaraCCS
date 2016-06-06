@@ -1,6 +1,7 @@
 @color1: #fd8339;
 @color2: #334353;
 @color3: #4d6479;
+@color4: #dde4ec;
 
 /******* Header Mobile ************/
 div.header {
@@ -52,6 +53,7 @@ div.header {
 				width: auto;
 
 				input {
+					font-size: 10px;
 					margin-top: 22px;
 					width: 65px;
 				}
@@ -656,7 +658,7 @@ input {
 
 	.content {
 		box-sizing: border-box;
-		padding: 0px 20px;
+		padding: 0px;
 	}
 
 	.breadcrumb {
@@ -670,7 +672,7 @@ input {
 
 		li {
 			display: inline-block;
-			vertical-align: middle;
+			vertical-align: top;
 			
 			&:nth-of-type(1) {
 				text-decoration: underline;
@@ -678,6 +680,7 @@ input {
 
 			&.active {
 				color: @color1;
+				white-space: normal;
 
 				&:after {
 					display: none;
@@ -947,6 +950,8 @@ input {
 	.container {
 		.title {
 			h2 {
+    		font-size: 11px;
+    		text-align: center;
 				width: 100%;
 			}
 
@@ -1968,6 +1973,244 @@ input[type="radio"]:checked + label span{
 
 		.transformer-tabs a {
 			font-size: 11px;
+		}
+	}
+}
+
+/********** Arancel Aduanero *************/
+.arancel_aduanero .wrap-text, .incoterms .wrap-text {
+  padding-top: 15px;
+}
+
+.arancel_aduanero .wrap-text h1, .incoterms .wrap-text h1 {
+  margin-top: 0px;
+}
+
+/******** Cuenta Usuario ***************/
+.cuenta_usuario .radio {
+  text-align: center;
+}
+
+.cuenta_usuario .radio label {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+/******** Acuerdos Comerciales ***************/
+
+.acuerdos_comerciales .servicios-sag { 
+  text-align: center;
+}
+
+.acuerdos_comerciales .servicios-sag .item { 
+  display: inline-block;
+  float: none;
+}
+
+
+/***** Misiones Empresariales ******/
+.misiones .tabs {
+  padding: 0px;
+}
+
+.misiones .tabs > div {
+  padding-top: 0px;
+}
+
+.misiones .donwload-btn.sm {
+  border: none;
+  padding: 0px;
+}
+
+.misiones .transformer-tabs li {
+  border: none;
+}
+
+.misiones .transformer-tabs a.active::after, .transformer-tabs a:hover::after {
+  border-top: 0px;
+}
+
+/***** Calendario Capacitaciones ******/
+
+.capacitaciones {
+	.calendar-items {
+		padding: 0px 20px;
+
+		@media only screen and (max-width: 980px) {
+			padding: 0px;
+		}
+
+		button {
+			background: @color4;
+			border: none;
+			border-radius: 50%;
+			display: block;
+			font-size: 12px;
+			height: 15px;
+			line-height: 12px;
+			margin-top: -7px;
+			position: absolute;
+			top: 50%;
+			text-align: center;
+			width: 15px;
+
+			@media only screen and (max-width: 980px) {
+				height: 30px;
+				line-height: 28px;
+				font-size: 15px;
+				margin-top: -15px;
+				width: 30px;
+			}
+
+			&.fa-angle-left {
+				left: 15px;
+				text-indent: -1px;
+			}
+
+			&.fa-angle-right {
+				right: 15px;
+			}
+
+			&.hide {
+				display: none;
+			}
+		}
+
+		h3 {
+			background: @color4;
+			color: @color2;
+			line-height: 50px;
+			margin: 0px;
+			text-transform: uppercase;
+			width: 100%;
+		}
+
+		p {
+			&.day {
+				border-bottom: 1px solid @color1;
+				color: @color1;
+				margin-bottom: 7px;
+				padding-bottom: 7px;
+			}
+
+			&.name {
+				color: @color2;
+				display: block;
+				font-weight: bold;
+				font-size: 13px;
+				line-height: 15px;
+			}
+		}
+
+		span {
+			color: #bbcada;
+			display: inline-block;
+			font-weight: bold;
+			font-size: 13px;
+			line-height: 17px;
+			padding: 0px 15px;
+			margin-top: 35px;
+		}
+	}
+
+	.month {
+		border: 1px solid @color4;
+		float: left;
+		height: 160px;
+		margin-right: 2.3733333%;
+		margin-bottom: 22px;
+		position: relative;
+		text-align: center;
+		width: 23.22%;
+
+		&:nth-child(4n + 4) {
+			margin-right: 0px;
+		}
+
+		@media only screen and (max-width: 980px) {
+			margin-right: 3.17%;
+			width: 31.22%;
+
+			&:nth-child(4n + 4) {
+				margin-right: 3.17%;
+			}
+
+			&:nth-child(3n + 3) {
+				margin-right: 0px;
+			}
+		}
+
+		@media only screen and (max-width: 780px) {
+			margin-right: 3%;
+			width: 48.5%;
+
+			&:nth-child(4n + 4) {
+				margin-right: 3%;
+			}
+
+			&:nth-child(3n + 3) {
+				margin-right: 3%;
+			}
+
+			&:nth-child(2n + 2) {
+				margin-right: 0px;
+			}
+		}
+
+		@media only screen and (max-width: 640px) {
+			float: none;
+			margin: 0 auto;
+			margin-bottom: 20px;
+			max-width: 300px;
+			width: 100%;
+
+			&:nth-child(4n + 4) {
+				margin-right: auto;
+			}
+
+			&:nth-child(3n + 3) {
+				margin-right: auto;
+			}
+
+			&:nth-child(2n + 2) {
+				margin-right: auto;
+			}
+		}
+	}
+
+	.month-items {
+		padding-top: 20px;
+		position: relative;
+
+		&.one {
+			button {
+				display: none;
+			}
+		}
+	}
+
+	.container-items {
+		height: 87px;
+		margin: 0 auto;
+		overflow: hidden;
+		position: relative;
+		width: 120px;
+	}
+
+	.month-item {
+		height: 87px;
+		left: 50%;
+		margin-left: -60px;
+		overflow: hidden;
+		opacity: 0;
+		position: absolute;
+		padding-bottom: 10px;
+		-webkit-transition: opacity 250ms;
+		transition: opacity 250ms;
+		width: 120px;
+
+		&.show {
+			opacity: 1;
 		}
 	}
 }

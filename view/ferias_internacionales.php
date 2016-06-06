@@ -1,16 +1,16 @@
-<section class="main">
+<section class="main home">
   <div class="indicadores top-indicadores">
     <p><span>UF: 25.350,09</span>   -    <span>Dólar Obs: $715,8</span>   -  <span>Euro: $710,5</span></p>
   </div>
 
- <div class="container">
+ <div class="container two">
     <div class="title">
        <h2>Ferias internacionales</h2>
 
        <p>Conozca las Ferias más importantes a nivel mundial</p>
     </div>
     
-    <div class="content">
+    <div class="content two">
       <div class="breadcrumb">
          <ul>
             <li><a href="#">Home</a></li>
@@ -19,7 +19,7 @@
       </div>
 
       <div class="bigbanner">
-        <img src="img/ferias-internacionales-banner.png" alt="Ferias internacionales">
+        <img src="../img/ferias-internacionales-banner.png" alt="Ferias internacionales">
       </div>
 
       <div class="wrap-collapse orange-color">

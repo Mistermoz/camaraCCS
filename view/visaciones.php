@@ -1,16 +1,16 @@
-<div class="main visaciones">
+<div class="main visaciones home">
 	<div class="indicadores top-indicadores">
 		<p><span>UF: 25.350,09</span>   -    <span>Dólar Obs: $715,8</span>   -  <span>Euro: $710,5</span></p>
 	</div>
 		
-	<div class="container">
+	<div class="container two">
 		<div class="title">
 			<h2>Visaciones</h2>
 
 			<p><span>Valide sus documentos de exportación tales como facturas, listas de precios y otros.</span></p>
 		</div>
 
-		<div class="content">
+		<div class="content two">
 			<div class="breadcrumb">
 				<ul>
 					<li><a href="/">Home</a></li>
@@ -52,7 +52,7 @@
 
 			    <p>3.- En caso de requerir mayor información no dude en contactarnos en nuestro Departamento de Comercio Exterior al    Fonos: 23607076 - 23607115   E-mail: comexccs@ccs.cl o a través de nuestro formulario adjunto "CONTACTENOS"</p>
 
-			    <p><img src="./img/timbre_visaciones.jpg" alt=""></p>
+			    <p><img src="../img/timbre_visaciones.jpg" alt=""></p>
 			  </div>
 			</div>
 		</div>

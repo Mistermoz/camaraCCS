@@ -1,11 +1,11 @@
-<div class="main certificado_internacional">
+<div class="main certificado_internacional home">
 	<div class="indicadores top-indicadores">
 		<p><span>UF: 25.350,09</span>   -    <span>Dólar Obs: $715,8</span>   -  <span>Euro: $710,5</span></p>
 	</div>
 		
-	<div class="container">
+	<div class="container two">
 		<div class="title">
-			<h2>Certificado de negocios EMPRESARIALES</h2>
+			<h2>Certificado de negocios Empresariales</h2>
 
 			<p><span>Valide los datos de su empresa para presentar a sus contrapartes comerciales.</span></p>
 		</div>
@@ -14,7 +14,7 @@
 			<div class="breadcrumb">
 				<ul>
 					<li><a href="/">Home</a></li>
-					<li class="active">Certificado de Negocios Internacionales</li>
+					<li class="active">Certificado de Negocios Empresariales</li>
 				</ul>
 			</div>
 
@@ -74,7 +74,7 @@
 							<div class="column-cert">
 								<label>N° de certificados</label>
 
-								<div class="select-box">
+								<div class="select-box total-cert">
 									<select name="total-cert" required>
 										<option value="1">01</option>
 										<option value="2">02</option>

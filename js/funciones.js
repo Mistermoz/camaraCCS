@@ -8,6 +8,13 @@ $(document).ready(function(){
 		pause: 7000,
 		slideMargin: 0
 	});
+
+	$('a[href="/!#/open/dataDirectorio"]').click(function (e){
+		$(this).parent().parent().toggleClass('enabled');
+		$(this).toggleClass('more');
+
+		e.preventDefault();
+	});
 	
 	//$('.candado').unbind('click')
 	$('#envio').click(function() {
@@ -288,5 +295,46 @@ $(document).ready(function(){
     $.datepicker.setDefaults($.datepicker.regional['es']);
 
 		$( "#datepicker" ).datepicker();
+
+		/***** Capacitaciones *****/
+
+		$('.capacitaciones button').click(function () {
+			var boxContent = $(this).parent().find('.container-items');
+
+			if(boxContent.data('current') === undefined ) {
+				boxContent.data('current', 2);
+				boxContent.data('total', '' + boxContent.children().length + '');
+				boxContent.find('.month-item').removeClass('show');
+				boxContent.find('.month-item:nth-of-type(2)').addClass('show');
+
+				if(boxContent.children().length === 2) {
+					$(this).addClass('hide');
+				}
+
+				$(this).parent().find('button.fa-angle-left').removeClass('hide');
+			}else {
+				if($(this).hasClass('fa-angle-left') && boxContent.data('current') !== 1) {
+					boxContent.find('.month-item').removeClass('show');
+					boxContent.find('.month-item:nth-of-type(' + (boxContent.data('current') - 1) + ')').addClass('show');
+
+					if((boxContent.data('current') - 1) === 1) {
+						$(this).addClass('hide');
+					}
+
+					$(this).parent().find('button.fa-angle-right').removeClass('hide');
+					boxContent.data('current', (boxContent.data('current') - 1));
+				}else if (boxContent.data('current') !== boxContent.data('total')) {
+					boxContent.find('.month-item').removeClass('show');
+					boxContent.find('.month-item:nth-of-type(' + (boxContent.data('current') + 1) + ')').addClass('show');
+
+					if((boxContent.data('current') + 1) == boxContent.data('total')) {
+						$(this).addClass('hide');
+					}
+
+					$(this).parent().find('button.fa-angle-left').removeClass('hide');
+					boxContent.data('current', (boxContent.data('current') + 1));
+				}
+			}
+		});
 	});
 });

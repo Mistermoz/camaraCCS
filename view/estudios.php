@@ -1,16 +1,16 @@
-<div class="main estudios">
+<div class="main estudios home">
 	<div class="indicadores top-indicadores">
 		<p><span>UF: 25.350,09</span>   -    <span>Dólar Obs: $715,8</span>   -  <span>Euro: $710,5</span></p>
 	</div>
 		
-	<div class="container">
+	<div class="container two">
 		<div class="title">
 			<h2>Estudios</h2>
 
 			<p><span>Acceda a una selección de Estudios de Mercado recopilados de distintas fuentes.</span></p>
 		</div>
 
-		<div class="content">
+		<div class="content two">
 			<div class="breadcrumb">
 				<ul>
 					<li><a href="/">Home</a></li>
@@ -32,11 +32,11 @@
 				  	<h4>América Latina y Caribe</h4>
 				    
 				    <div class="products">
-				    	<p><a href="#"><span>México, aceite de oliva 2010</span> <img src="./img/icon_pdf.jpg" alt=""></a></p>
+				    	<p><a href="#"><span>México, aceite de oliva 2010</span> <img src="../img/icon_pdf.jpg" alt=""></a></p>
 
-				    	<p><a href="#"><span>México, aceite de oliva 2010</span> <img src="./img/icon_pdf.jpg" alt=""></a></p>
+				    	<p><a href="#"><span>México, aceite de oliva 2010</span> <img src="../img/icon_pdf.jpg" alt=""></a></p>
 
-				    	<p><a href="#"><span>Argentina, Palta 2010</span> <img src="./img/icon_pdf.jpg" alt=""></a></p>
+				    	<p><a href="#"><span>Argentina, Palta 2010</span> <img src="../img/icon_pdf.jpg" alt=""></a></p>
 				    </div>
 				  </div>
 			  </div>
